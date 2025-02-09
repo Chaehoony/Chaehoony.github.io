@@ -1,0 +1,81 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+
+body {
+    text-align: center;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+#darkModeToggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 50px 20px;
+}
+
+.hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero h2 span {
+    color: #007bff;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
+}
+
+.hero .btn:hover {
+    background: #0056b3;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #222;
+    color: #fff;
+}
+
+.dark-mode header {
+    background: #111;
+}
+
+.dark-mode .btn {
+    background: #ffa500;
+}
+
+.dark-mode .btn:hover {
+    background: #cc8400;
+}
